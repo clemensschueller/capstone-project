@@ -1,7 +1,16 @@
+import styled from 'styled-components/macro'
+import PropTypes from 'prop-types'
 
-    import styled from 'styled-components/macro'
-      
-    export default function Cards () {
-        return <div>Cards</div>
-    }
-          
+Title.propTypes = {
+  pageName: PropTypes.string.isRequired,
+}
+
+export default function Title({ pageName }) {
+  return <PageName>{pageName}</PageName>
+}
+
+const PageName = styled.h1`
+  display: grid;
+  justify-content: center;
+  color: var(--black);
+`

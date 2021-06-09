@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Affenfaust Galerie",
     "address": "Paul-Roosen-Straße 43, 22767 Hamburg",
     "style": "Urban",
@@ -10,7 +10,7 @@
   },
 
   {
-    "id": 2,
+    "id": "2",
     "name": "Bucerius Kunst Forum",
     "address": "Alter Wall 12, 20457 Hamburg",
     "style": "Verschieden",
@@ -20,7 +20,7 @@
   },
 
   {
-    "id": 3,
+    "id": "3",
     "name": "Deichtorhallen",
     "address": "Deichtorstraße 1–2, 20095 Hamburg",
     "style": "Zeitgenösisch",
@@ -30,7 +30,7 @@
   },
 
   {
-    "id": 4,
+    "id": "4",
     "name": "Hamburger Kunsthalle",
     "address": "Glockengießerwall 5, 20095 Hamburg",
     "style": "Verschieden",
@@ -40,7 +40,7 @@
   },
 
   {
-    "id": 5,
+    "id": "5",
     "name": "OZM Art Space",
     "address": "Bartelstraße 65, 20357 Hamburg",
     "style": "Street Art",

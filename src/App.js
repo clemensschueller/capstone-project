@@ -5,7 +5,8 @@ import Card from './Card'
 
 function App() {
   return (
-    
+    <h1>Galleries</h1>
+    <Cards></Cards>
   );
 }
 
