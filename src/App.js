@@ -1,13 +1,17 @@
 import styled from 'styled-components/macro'
-import './App.css';
-import { useEffect, useState } from 'react'
-import Card from './Card'
+import Card from './components/Card'
 
 function App() {
   return (
-    <h1>Galleries</h1>
-    <Cards></Cards>
-  );
+    <AppGrid>
+      <Card />
+    </AppGrid>
+  )
 }
 
-export default App;
+export default App
+
+const AppGrid = styled.section`
+  display: grid;
+  padding: 10px;
+`

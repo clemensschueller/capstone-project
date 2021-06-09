@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     display: flex;
     justify-content: center;
-    color: darksalmon;
+    color: black;
     background-color: #ebf1f4;
     margin: 0;
     font-family: sans-serif;
