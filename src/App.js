@@ -1,10 +1,10 @@
 import styled from 'styled-components/macro'
-import Card from './components/Card'
+import ListPage from './pages/ListPage'
 
 function App() {
   return (
     <AppGrid>
-      <Card />
+      <ListPage />
     </AppGrid>
   )
 }
