@@ -1,6 +1,5 @@
 import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
-// import '../data.json'
 
 Card.propTypes = {
   galleries: PropTypes.arrayOf(
