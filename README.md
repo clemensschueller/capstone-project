@@ -1,3 +1,9 @@
+# Art2Date
+
+## What do I do?
+
+- I show you all the interesting and important galleries in your city!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
