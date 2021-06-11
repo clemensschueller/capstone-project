@@ -26,6 +26,7 @@ export default function ListPage() {
             name={gallery.name}
             style={gallery.style}
             opening={gallery.opening}
+            onClick={() => onNavigate(gallery.id)}
           />
         ))}
       </GalleryList>
