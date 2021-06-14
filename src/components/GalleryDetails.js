@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 
-GalleryDetails.proptypes = {
+GalleryDetails.propTypes = {
   image: PropTypes.node,
   name: PropTypes.string,
   style: PropTypes.string,

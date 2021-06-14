@@ -1,21 +1,33 @@
 import { useState } from 'react'
-import galleries from '../data.json'
+import galleries from './data.json'
 import ListPage from './pages/ListPage'
 import DetailsPage from './pages/DetailsPage'
 
-function App() {
-  const [activePage, setActivePage] = useState()
+export default function App() {
+  const [activePage, setActivePage] = useState('list')
+  const [detailedGallery, setDetailedGallery] = useState({})
   return (
-    <AppGrid>
-      <Header>galleries in hamburg</Header>
-      <ListPage />
-    </AppGrid>
+    <>
+      {activePage === 'list' && (
+        <ListPage onNavigate={handleClickDetails} galleries={galleries} />
+      )}
+      {activePage === 'details' && (
+        <DetailsPage onNavigate={handleClickBack} gallery={detailedGallery} />
+      )}
+    </>
   )
-}
 
-const AppGrid = styled.section`
+  function handleClickDetails(id) {
+    const index = galleries.findIndex(gallery => gallery.id === id)
+    setDetailedGallery(galleries[index])
+    setActivePage('details')
+  }
+
+  function handleClickBack() {
+    setActivePage('list')
+  }
+}
+/* const AppGrid = styled.section`
   display: grid;
   padding: 10px;
-`
-
-export default App
+` */
