@@ -10,7 +10,9 @@ DetailsPage.propTypes = {
     image: PropTypes.node,
     name: PropTypes.string,
     style: PropTypes.string,
+    address: PropTypes.string,
     opening: PropTypes.string,
+    description: PropTypes.string,
     id: PropTypes.node,
   }),
 }
