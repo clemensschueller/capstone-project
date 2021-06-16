@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
     color: black;
     background-color: #ebf1f4;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 112.5%;
   }
   

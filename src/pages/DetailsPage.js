@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import Button from '../components/Button'
-//import GalleryDetails from '../components/GalleryDetails'
-//import galleries from '../data.json'
 
 DetailsPage.propTypes = {
   onNavigate: PropTypes.func.isRequired,
@@ -22,13 +20,13 @@ export default function DetailsPage({ onNavigate, gallery }) {
   return (
     <Wrapper>
       <img src={image} alt="" />
-      <div>
-        <h2>{name}</h2>
-        <h3>{style}</h3>
-        <p>{address}</p>
-        <p>{opening}</p>
+      <h2>{name}</h2>
+      <h3>{style}</h3>
+      <Infos>
+        <span>{address}</span>
+        <span>{opening}</span>
         <p>{description}</p>
-      </div>
+      </Infos>
       <BackButton onClick={onNavigate}>Close Details</BackButton>
     </Wrapper>
   )
@@ -39,21 +37,33 @@ const BackButton = styled(Button)`
   padding: 5px;
 `
 const Wrapper = styled.section`
+  display: grid;
+  justify-items: center;
   padding: 10px;
   background: whitesmoke;
 
   h2 {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 18px;
     color: darksalmon;
   }
 
   img {
-    width: 100px;
+    width: 80%;
+    height: 50wh;
     border: 1px solid grey;
     border-radius: 5px;
+    margin: 20px;
+  }
+`
+
+const Infos = styled.section`
+  display: grid;
+
+  span {
+    font-size: 80%;
   }
 `
