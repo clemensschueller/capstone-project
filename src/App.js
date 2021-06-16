@@ -27,7 +27,3 @@ export default function App() {
     setActivePage('list')
   }
 }
-/* const AppGrid = styled.section`
-  display: grid;
-  padding: 10px;
-` */

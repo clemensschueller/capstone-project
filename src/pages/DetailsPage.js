@@ -11,7 +11,6 @@ DetailsPage.propTypes = {
     address: PropTypes.string,
     opening: PropTypes.string,
     description: PropTypes.string,
-    id: PropTypes.node,
   }),
 }
 
