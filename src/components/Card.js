@@ -4,17 +4,19 @@ import PropTypes from 'prop-types'
 Card.propTypes = {
   galleries: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.string,
       image: PropTypes.node,
       name: PropTypes.string,
       style: PropTypes.string,
       opening: PropTypes.string,
     })
   ),
+  onClick: PropTypes.func,
 }
 
-export default function Card({ image, name, style, opening }) {
+export default function Card({ image, name, style, opening, onClick }) {
   return (
-    <Wrapper>
+    <Wrapper onClick={onClick}>
       <img src={image} alt="" />
       <div>
         <h2>{name}</h2>
