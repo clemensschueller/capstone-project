@@ -2,15 +2,10 @@ import styled from 'styled-components/macro'
 import PropTypes from 'prop-types'
 
 Card.propTypes = {
-  galleries: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string,
-      image: PropTypes.node,
-      name: PropTypes.string,
-      style: PropTypes.string,
-      opening: PropTypes.string,
-    })
-  ),
+  image: PropTypes.node,
+  name: PropTypes.string,
+  style: PropTypes.string,
+  opening: PropTypes.string,
   onClick: PropTypes.func,
 }
 
