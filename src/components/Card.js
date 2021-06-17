@@ -27,15 +27,20 @@ const Wrapper = styled.section`
   border: 1px solid white;
   border-radius: 5px;
   display: flex;
-  gap: 8px;
+  gap: 10px;
   background: whitesmoke;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
   h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   h3 {
+    font-size: 17px;
+    color: darkred;
+  }
+
+  p {
     font-size: 15px;
   }
 

@@ -47,7 +47,7 @@ const Wrapper = styled.section`
 
   h3 {
     font-size: 18px;
-    color: darksalmon;
+    color: darkred;
   }
 
   img {
