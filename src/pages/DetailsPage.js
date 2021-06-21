@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import Button from '../components/Button'
-import { ReactComponent as Anchor } from '../assets/icons8-anchor-26.svg'
+import ButtonBoorkmark from '../components/ButtonBookmark'
 
 DetailsPage.propTypes = {
   onNavigate: PropTypes.func.isRequired,
@@ -20,9 +20,10 @@ export default function DetailsPage({ onNavigate, gallery }) {
   return (
     <Wrapper>
       <img src={image} alt="" />
-      <Bookmark>
-        <Anchor />
-      </Bookmark>
+      <ButtonBoorkmark
+        onClick={() => handleBookmark(id)}
+        isBookmarked={isBookmarked ?? false}
+      />
       <h2>{name}</h2>
       <h3>{style}</h3>
       <Infos>
@@ -68,15 +69,5 @@ const Infos = styled.section`
 
   span {
     font-size: 80%;
-  }
-`
-
-const Bookmark = styled.span`
-  display: flex;
-  align-items: right;
-
-  svg {
-    height: 20px;
-    width: 20px;
   }
 `

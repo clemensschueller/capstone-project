@@ -16,7 +16,11 @@ export default function App() {
           <ListPage onNavigate={handleClickDetails} galleries={galleries} />
         </Route>
         <Route path="/details">
-          <DetailsPage onNavigate={handleClickBack} gallery={detailedGallery} />
+          <DetailsPage
+            onNavigate={handleClickBack}
+            gallery={detailedGallery}
+            isBookmarked={isBookmarked}
+          />
         </Route>
       </Switch>
     </>
@@ -31,4 +35,6 @@ export default function App() {
   function handleClickBack() {
     push('/')
   }
+
+  function handleBookmark(id) {}
 }
