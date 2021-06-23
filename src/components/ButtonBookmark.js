@@ -3,7 +3,7 @@ import styled from 'styled-components/macro'
 import { ReactComponent as PlusIcon } from '../assets/Font_plus.svg'
 import { ReactComponent as Anchor } from '../assets/anchor.svg'
 
-ButtonBookmark.PropTypes = {
+ButtonBookmark.propTypes = {
   isBookmarked: PropTypes.bool,
   onClick: PropTypes.func,
 }
@@ -34,7 +34,7 @@ const ToggleButton = styled.button`
   padding: 3px;
   margin-top: 5px;
   background: ${props =>
-    props.isBookmarked ? 'rgba(100, 100, 40, 0.1)' : 'none'};
+    props.isBookmarked ? 'rgba(100, 100, 40, 0.1)' : '#FAFAFA'};
   font-family: inherit;
   font-size: 0.75rem;
   text-transform: uppercase;

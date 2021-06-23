@@ -15,7 +15,13 @@ DetailsPage.propTypes = {
   }),
 }
 
-export default function DetailsPage({ onNavigate, gallery }) {
+export default function DetailsPage({
+  onNavigate,
+  gallery,
+  handleBookmark,
+  isBookmarked,
+  id,
+}) {
   const { image, name, style, address, opening, description } = gallery
   return (
     <Wrapper>
