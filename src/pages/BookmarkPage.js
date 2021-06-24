@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import Card from '../components/Card'
+import gallery from '../data.json'
 
 BookmarkPage.propTypes = {
   onNavigate: PropTypes.func.isRequired,
@@ -15,17 +16,22 @@ BookmarkPage.propTypes = {
 }
 
 export default function BookmarkPage({ galleries, onNavigate }) {
+  const bookmarkedGalleries = galleries.filter(
+    gallery => gallery.isBookmarked === true
+  )
+
   return (
     <Wrapper>
-      bookmarkedGalleries={}
-      <Card
-        key={gallery.id}
-        image={gallery.image}
-        name={gallery.name}
-        style={gallery.style}
-        opening={gallery.opening}
-        onClick={() => onNavigate(gallery.id)}
-      />
+      {bookmarkedGalleries.map(({ id, image, name, style, opening }) => (
+        <Card
+          key={id}
+          image={image}
+          name={name}
+          style={style}
+          opening={opening}
+          onClick={() => onNavigate(id)}
+        />
+      ))}
     </Wrapper>
   )
 }

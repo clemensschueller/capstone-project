@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import galleries from './data.json'
+import galleriesData from './data.json'
 import ListPage from './pages/ListPage'
 import DetailsPage from './pages/DetailsPage'
 import BookmarkPage from './pages/BookmarkPage'
@@ -8,8 +8,8 @@ import { Route, Switch, useHistory } from 'react-router-dom'
 
 export default function App() {
   const [detailedGallery, setDetailedGallery] = useState({})
-  const [isBookmarked, setIsBookmarked] = useState(false)
-
+  // const [isBookmarked, setIsBookmarked] = useState(false)
+  const [galleries, setGalleries] = useState(galleriesData)
   const history = useHistory()
 
   return (
@@ -24,15 +24,15 @@ export default function App() {
         <Route path="/details">
           <DetailsPage
             onNavigate={handleClickBack}
+            handleBookmark={handleBookmark}
             gallery={detailedGallery}
-            isBookmarked={isBookmarked}
           />
         </Route>
         <Route path="/bookmarks">
           <BookmarkPage
             onNavigate={handleClickDetails}
             galleries={galleries}
-            isBookmarked={isBookmarked}
+            // isBookmarked={isBookmarked}
           />
         </Route>
       </Switch>
@@ -50,6 +50,15 @@ export default function App() {
   }
 
   function handleBookmark(id) {
-    const index = galleries.findIndex()
+    console.log(id)
+    const index = galleries.findIndex(gallery => gallery.id === id)
+    const selectedGallery = galleries[index]
+    selectedGallery.isBookmarked = !selectedGallery.isBookmarked
+    const updatedGalleries = [
+      ...galleries.slice(0, index),
+      selectedGallery,
+      ...galleries.slice(index + 1),
+    ]
+    setGalleries(updatedGalleries)
   }
 }
