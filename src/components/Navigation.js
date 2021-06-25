@@ -29,10 +29,10 @@ const StyledNavLink = styled(NavLink)`
   text-transform: uppercase;
   text-decoration: none;
 
-  &.selected {1
-      color: darkred;
-      font-weight: 600;
-      text-decoration: underline;
-      text-decoration-color: darkred;
+  &.selected {
+    color: darkred;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: darkred;
   }
 `

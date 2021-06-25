@@ -8,7 +8,6 @@ import { Route, Switch, useHistory } from 'react-router-dom'
 
 export default function App() {
   const [detailedGallery, setDetailedGallery] = useState({})
-  // const [isBookmarked, setIsBookmarked] = useState(false)
   const [galleries, setGalleries] = useState(galleriesData)
   const history = useHistory()
 
@@ -29,11 +28,7 @@ export default function App() {
           />
         </Route>
         <Route path="/bookmarks">
-          <BookmarkPage
-            onNavigate={handleClickDetails}
-            galleries={galleries}
-            // isBookmarked={isBookmarked}
-          />
+          <BookmarkPage onNavigate={handleClickDetails} galleries={galleries} />
         </Route>
       </Switch>
     </>
@@ -46,11 +41,10 @@ export default function App() {
   }
 
   function handleClickBack() {
-    history.push('/')
+    history.goBack()
   }
 
   function handleBookmark(id) {
-    console.log(id)
     const index = galleries.findIndex(gallery => gallery.id === id)
     const selectedGallery = galleries[index]
     selectedGallery.isBookmarked = !selectedGallery.isBookmarked

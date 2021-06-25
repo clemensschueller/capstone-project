@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import Card from '../components/Card'
-import galleries from '../data.json'
 
 BookmarkPage.propTypes = {
   onNavigate: PropTypes.func.isRequired,
