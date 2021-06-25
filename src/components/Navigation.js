@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom'
 export default function Navigation() {
   return (
     <NavBar>
-      <StyledNavLink exact to="/" activeClassName="selected">
+      <StyledNavLink exact to="/" activeStyle={{Color: 'red'}} activeClassName="selected">
         Alle
       </StyledNavLink>
-      <StyledNavLink exact to="/bookmarks" activeClassName="selected">
+      <StyledNavLink exact to="/bookmarks" activeStyle={{Color: 'red'}} activeClassName="selected">
         Gespeichert
       </StyledNavLink>
     </NavBar>
