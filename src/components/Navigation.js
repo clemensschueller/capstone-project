@@ -1,14 +1,13 @@
-import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import { NavLink } from 'react-router-dom'
 
 export default function Navigation() {
   return (
     <NavBar>
-      <StyledNavLink exact to="/" activeStyle={{Color: 'red'}} activeClassName="selected">
+      <StyledNavLink exact to="/" activeClassName="selected">
         Alle
       </StyledNavLink>
-      <StyledNavLink exact to="/bookmarks" activeStyle={{Color: 'red'}} activeClassName="selected">
+      <StyledNavLink exact to="/bookmarks" activeClassName="selected">
         Gespeichert
       </StyledNavLink>
     </NavBar>
@@ -29,4 +28,11 @@ const StyledNavLink = styled(NavLink)`
   letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
+
+  &.selected {1
+      color: darkred;
+      font-weight: 600;
+      text-decoration: underline;
+      text-decoration-color: darkred;
+  }
 `
