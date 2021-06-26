@@ -23,6 +23,7 @@ export default function Card({ image, name, style, opening, onClick }) {
 }
 
 const Wrapper = styled.section`
+  width: 100%;
   padding: 10px;
   border: 1px solid white;
   border-radius: 5px;

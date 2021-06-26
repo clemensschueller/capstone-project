@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import Button from '../components/Button'
+import ButtonBookmark from '../components/ButtonBookmark'
 
 DetailsPage.propTypes = {
   onNavigate: PropTypes.func.isRequired,
@@ -14,11 +15,24 @@ DetailsPage.propTypes = {
   }),
 }
 
-export default function DetailsPage({ onNavigate, gallery }) {
-  const { image, name, style, address, opening, description } = gallery
+export default function DetailsPage({ onNavigate, gallery, handleBookmark }) {
+  const {
+    id,
+    image,
+    name,
+    style,
+    address,
+    opening,
+    description,
+    isBookmarked,
+  } = gallery
   return (
     <Wrapper>
       <img src={image} alt="" />
+      <ButtonBookmark
+        onClick={() => handleBookmark(id)}
+        isBookmarked={isBookmarked}
+      />
       <h2>{name}</h2>
       <h3>{style}</h3>
       <Infos>
