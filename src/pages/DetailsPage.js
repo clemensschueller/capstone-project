@@ -80,3 +80,6 @@ const Infos = styled.section`
     font-size: 80%;
   }
 `
+// background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;

@@ -15,15 +15,17 @@ export default function Navigation() {
 }
 
 const NavBar = styled.nav`
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  justify-content: center;
+  position: fixed;
+  //margin: 8px 8px;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 5rem;
+  width: 100vw;
+  background-color: #ebf1f4;
 `
 
 const StyledNavLink = styled(NavLink)`
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin: 8px 16px;
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;

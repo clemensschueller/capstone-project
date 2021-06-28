@@ -10,11 +10,18 @@ export default function Header({ children }) {
 }
 
 const PageHead = styled.h1`
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  //width: 100vw;
+  font-size: 25px;
   padding: 8px;
+  margin: 20px 0 0 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
   text-align: center;
-  background: rgba(100, 100, 50, 0.1);
+  background: #ebf1f4;
+  //rgba(100, 100, 50, 0.1);
   height: 50px;
   border-radius: 5px;
 `

@@ -4,6 +4,7 @@ import ListPage from './pages/ListPage'
 import DetailsPage from './pages/DetailsPage'
 import BookmarkPage from './pages/BookmarkPage'
 import Navigation from './components/Navigation'
+import Header from './components/Header'
 import { Route, Switch, useHistory } from 'react-router-dom'
 import useLocalStorage from './hooks/useLocalStorage'
 
@@ -20,6 +21,7 @@ export default function App() {
       </Route>
       <Switch>
         <Route exact path="/">
+          <Header>Kunstgalerien in Hamburg</Header>
           <ListPage onNavigate={handleClickDetails} galleries={galleries} />
         </Route>
         <Route path="/details">
@@ -30,6 +32,7 @@ export default function App() {
           />
         </Route>
         <Route path="/bookmarks">
+          <Header>Gespeicherte Galerien</Header>
           <BookmarkPage onNavigate={handleClickDetails} galleries={galleries} />
         </Route>
       </Switch>
