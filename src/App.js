@@ -5,7 +5,7 @@ import DetailsPage from './pages/DetailsPage'
 import BookmarkPage from './pages/BookmarkPage'
 import Navigation from './components/Navigation'
 import { Route, Switch, useHistory } from 'react-router-dom'
-import useLocalStorage from './utils/useLocalStorage'
+import useLocalStorage from './hooks/useLocalStorage'
 
 export default function App() {
   const [detailedGallery, setDetailedGallery] = useState({})
