@@ -34,7 +34,7 @@ export default function DetailsPage({ onNavigate, gallery, handleBookmark }) {
         isBookmarked={isBookmarked}
       />
       <h2>{name}</h2>
-      <h3>{style}</h3>
+      <div>Kunststil: {style}</div>
       <Infos>
         <span>{address}</span>
         <span>{opening}</span>
@@ -59,11 +59,13 @@ const Wrapper = styled.section`
 
   h2 {
     font-size: 25px;
+    color: #372d70;
   }
 
-  h3 {
+  div {
     font-size: 18px;
-    color: darkred;
+    color: #1c62d4;
+    margin-bottom: 20px;
   }
 
   img {
@@ -80,6 +82,7 @@ const Infos = styled.section`
 
   span {
     font-size: 80%;
+    color: grey;
   }
 `
 // background-position: center;
