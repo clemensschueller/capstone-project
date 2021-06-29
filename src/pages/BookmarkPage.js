@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import Card from '../components/Card'
+import Header from '../components/Header'
 
 BookmarkPage.propTypes = {
   onNavigate: PropTypes.func.isRequired,
@@ -14,13 +15,14 @@ BookmarkPage.propTypes = {
   }),
 }
 
-export default function BookmarkPage({ galleries, onNavigate }) {
+export default function BookmarkPage({ galleries, onNavigate, title }) {
   const bookmarkedGalleries = galleries.filter(
     gallery => gallery.isBookmarked === true
   )
 
   return (
     <Wrapper>
+      <Header>{title}</Header>
       {bookmarkedGalleries.map(({ id, image, name, style, opening }) => (
         <Card
           key={id}
