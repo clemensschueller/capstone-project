@@ -4,9 +4,9 @@ import ListPage from './pages/ListPage'
 import DetailsPage from './pages/DetailsPage'
 import BookmarkPage from './pages/BookmarkPage'
 import Navigation from './components/Navigation'
-//import Header from './components/Header'
 import { Route, Switch, useHistory } from 'react-router-dom'
 import useLocalStorage from './hooks/useLocalStorage'
+import styled from 'styled-components/macro'
 
 export default function App() {
   const [detailedGallery, setDetailedGallery] = useState({})
@@ -15,13 +15,12 @@ export default function App() {
   const history = useHistory()
 
   return (
-    <>
-      <Route exact path={['/', '/bookmarks']}>
+    <AppGrid>
+      {/* <Route exact path={['/', '/bookmarks']}>
         <Navigation />
-      </Route>
+      </Route> */}
       <Switch>
         <Route exact path="/">
-          {/* <Header>Kunstgalerien in Hamburg</Header> */}
           <ListPage
             onNavigate={handleClickDetails}
             galleries={galleries}
@@ -36,7 +35,6 @@ export default function App() {
           />
         </Route>
         <Route path="/bookmarks">
-          {/* <Header>Gespeicherte Galerien</Header> */}
           <BookmarkPage
             onNavigate={handleClickDetails}
             galleries={galleries}
@@ -44,7 +42,10 @@ export default function App() {
           />
         </Route>
       </Switch>
-    </>
+      <Route exact path={['/', '/bookmarks']}>
+        <Navigation />
+      </Route>
+    </AppGrid>
   )
 
   function handleClickDetails(id) {
@@ -69,3 +70,9 @@ export default function App() {
     setGalleries(updatedGalleries)
   }
 }
+
+const AppGrid = styled.div`
+  display: grid;
+  grid-template-rows: auto 2rem;
+  height: 100vh;
+`

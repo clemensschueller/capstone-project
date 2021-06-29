@@ -41,4 +41,5 @@ const GalleryList = styled.ul`
   justify-content: center;
   padding: 10px;
   gap: 12px;
+  overflow-y: auto;
 `
