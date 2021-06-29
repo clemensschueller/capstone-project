@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import galleriesData from './data.json'
 import ListPage from './pages/ListPage'
 import DetailsPage from './pages/DetailsPage'
