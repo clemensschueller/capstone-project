@@ -46,8 +46,10 @@ export default function DetailsPage({ onNavigate, gallery, handleBookmark }) {
 }
 
 const BackButton = styled(Button)`
-  background-color: lightgoldenrodyellow;
-  padding: 5px;
+  position: fixed;
+  background-color: #ebf1f4;
+  padding: 8px;
+  bottom: 0;
 `
 const Wrapper = styled.section`
   display: grid;
