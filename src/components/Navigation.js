@@ -1,14 +1,16 @@
 import styled from 'styled-components/macro'
 import { NavLink } from 'react-router-dom'
+import listIcon from '../assets/framedList.png'
+import anchorIcon from '../assets/anchorBookmarkIcon.png'
 
 export default function Navigation() {
   return (
     <NavBar>
       <StyledNavLink exact to="/" activeClassName="selected">
-        Alle
+        <img src={listIcon} alt="" />
       </StyledNavLink>
       <StyledNavLink exact to="/bookmarks" activeClassName="selected">
-        Gespeichert
+        <img src={anchorIcon} alt="" />
       </StyledNavLink>
     </NavBar>
   )
@@ -17,23 +19,32 @@ export default function Navigation() {
 const NavBar = styled.nav`
   display: flex;
   justify-content: space-around;
+  justify-items: center;
   height: 2rem;
   width: 100vw;
   background-color: #ebf1f4;
   gap: 20px;
+
+  img {
+    width: 25px;
+    height: auto;
+  }
 `
 
 const StyledNavLink = styled(NavLink)`
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border: none;
+  width: 100%;
+
+  &:hover {
+    //background-color: bisque;
+    //border: 1px solid grey;
+  }
 
   &.selected {
-    color: darkred;
-    font-weight: 600;
-    text-decoration: underline;
-    text-decoration-color: darkred;
+    background-color: lightgrey;
   }
 `
