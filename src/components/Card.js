@@ -16,7 +16,6 @@ export default function Card({ image, name, style, opening, onClick }) {
       <div>
         <h2>{name}</h2>
         <p>{style}</p>
-        {/* <p>{opening}</p> */}
       </div>
     </Wrapper>
   )

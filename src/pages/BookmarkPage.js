@@ -44,10 +44,7 @@ export default function BookmarkPage({ galleries, onNavigate, title }) {
 }
 
 const Wrapper = styled.section`
-  /* display: grid;
-  justify-content: center; */
   margin-top: 60px;
-  //gap: 12px;
   overflow-y: auto;
 `
 

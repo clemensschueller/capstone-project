@@ -13,7 +13,7 @@ const GlobalStyles = createGlobalStyle`
   --color-secondary-font: #592236;
   --color-header: #59220E;
   --color-header-font: #D2D6D9;
-  --color-navigation: #D9D7CC;
+  --color-navigation: #E5E5E5;
   --color-active: #8C8A7D;
 }
 
