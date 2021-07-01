@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Affenfaust Galerie",
     "address": "Paul-Roosen-Straße 43, 22767 Hamburg",
     "style": "Urban",
@@ -10,7 +10,7 @@
   },
 
   {
-    "id": 2,
+    "id": "2",
     "name": "Artchina Gallery",
     "address": "Goetheallee 5-7, 22765 Hamburg",
     "style": "Zeitgenössisch",
@@ -20,7 +20,7 @@
   },
 
   {
-    "id": 3,
+    "id": "3",
     "name": "Barlach Halle K",
     "address": "Klosterwall 13, 20095 Hamburg",
     "style": "Zeitgenössisch",
@@ -30,7 +30,7 @@
   },
 
   {
-    "id": 4,
+    "id": "4",
     "name": "BRÄUNING CONTEMPORARY",
     "address": "Heidenkampsweg 32, 20097 Hamburg",
     "style": "Zeitgenössisch",
@@ -40,7 +40,7 @@
   },
 
   {
-    "id": 5,
+    "id": "5",
     "name": "Bucerius Kunst Forum",
     "address": "Alter Wall 12, 20457 Hamburg",
     "style": "Verschieden",
@@ -50,7 +50,7 @@
   },
 
   {
-    "id": 6,
+    "id": "6",
     "name": "BUNKERHILLGalerie",
     "address": "Feldstraße 66, 20359 Hamburg",
     "style": "Zeitgenössisch",
@@ -60,7 +60,7 @@
   },
 
   {
-    "id": 7,
+    "id": "7",
     "name": "Deichtorhallen",
     "address": "Deichtorstraße 1–2, 20095 Hamburg",
     "style": "Zeitgenössisch",
@@ -70,7 +70,7 @@
   },
 
   {
-    "id": 8,
+    "id": "8",
     "name": "Golden Hands Gallery",
     "address": "Kaiser-Wilhelm-Straße 85, 20355 Hamburg",
     "style": "Zeitgenössisch",
@@ -80,7 +80,7 @@
   },
 
   {
-    "id": 9,
+    "id": "9",
     "name": "Hamburger Galerie",
     "address": "Mittelweg 161, 20148 Hamburg",
     "style": "Zeitgenössisch",
@@ -90,7 +90,7 @@
   },
 
   {
-    "id": 10,
+    "id": "10",
     "name": "Hamburger Kunsthalle",
     "address": "Glockengießerwall 5, 20095 Hamburg",
     "style": "Verschieden",
@@ -100,7 +100,7 @@
   },
 
   {
-    "id": 11,
+    "id": "11",
     "name": "Heliumcowboy Artspace",
     "address": "Bäckerbreitergang 75, 20355 Hamburg",
     "style": "Zeitgenössisch",
@@ -110,7 +110,7 @@
   },
 
   {
-    "id": 12,
+    "id": "12",
     "name": "KRÜMMER fine art",
     "address": "Heilwigstraße 124, 20249 Hamburg",
     "style": "Verschieden",
@@ -120,7 +120,7 @@
   },
 
   {
-    "id": 13,
+    "id": "13",
     "name": "Kunstverein in Hamburg",
     "address": "Klosterwall 23, 20095 Hamburg",
     "style": "Zeitgenössisch",
@@ -130,7 +130,7 @@
   },
 
   {
-    "id": 14,
+    "id": "14",
     "name": "Levy Galerie",
     "address": "Hagedornstraße 47, 20149 Hamburg",
     "style": "Zeitgenössisch",
@@ -140,7 +140,7 @@
   },
 
   {
-    "id": 15,
+    "id": "15",
     "name": "Metropolitan Gallery",
     "address": "Am Sandtorpark 2, 20457 Hamburg",
     "style": "Verschieden",
@@ -150,7 +150,7 @@
   },
 
   {
-    "id": 16,
+    "id": "16",
     "name": "Museum für Kunst & Gewerbe Hamburg",
     "address": "Steintorplatz, 20099 Hamburg",
     "style": "Verschieden",
@@ -160,7 +160,7 @@
   },
 
   {
-    "id": 17,
+    "id": "17",
     "name": "Oberfett",
     "address": "Billrothstraße 67, 22767 Hamburg",
     "style": "Urban Art",
@@ -170,7 +170,7 @@
   },
 
   {
-    "id": 18,
+    "id": "18",
     "name": "OZM Art Space",
     "address": "Bartelstraße 65, 20357 Hamburg",
     "style": "Street Art",
@@ -180,7 +180,7 @@
   },
 
   {
-    "id": 19,
+    "id": "19",
     "name": "Produzentengalerie Hamburg",
     "address": "Admiralitätstraße 71, 20459 Hamburg",
     "style": "Zeitgenössisch",
@@ -190,7 +190,7 @@
   },
 
   {
-    "id": 20,
+    "id": "20",
     "name": "Raum linksrechts",
     "address": "Valentinskamp 37, 20355 Hamburg",
     "style": "Urban Art",
@@ -200,7 +200,7 @@
   },
 
   {
-    "id": 21,
+    "id": "21",
     "name": "Vera Munro Galerie",
     "address": "Heilwigstrasse 64, 20249 Hamburg",
     "style": "Zeitgenössisch",
@@ -210,7 +210,7 @@
   },
 
   {
-    "id": 22,
+    "id": "22",
     "name": "x-pon art gallery",
     "address": "Repsoldstraße 45, 20097 Hamburg",
     "style": "Zeitgenössisch",

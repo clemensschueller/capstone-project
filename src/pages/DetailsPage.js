@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import { useParams } from 'react-router-dom/cjs/react-router-dom.min'
 import styled from 'styled-components/macro'
 import Button from '../components/Button'
 import ButtonBookmark from '../components/ButtonBookmark'
@@ -15,9 +16,13 @@ DetailsPage.propTypes = {
   }),
 }
 
-export default function DetailsPage({ onNavigate, gallery, handleBookmark }) {
+export default function DetailsPage({ onNavigate, galleries, handleBookmark }) {
+  const { id } = useParams('id')
+  console.log(galleries)
+  const index = galleries.findIndex(gallery => gallery.id === id)
+  const gallery = galleries[index]
+
   const {
-    id,
     image,
     name,
     style,
@@ -26,6 +31,7 @@ export default function DetailsPage({ onNavigate, gallery, handleBookmark }) {
     description,
     isBookmarked,
   } = gallery
+
   return (
     <Wrapper>
       <img src={image} alt="" />
@@ -54,8 +60,7 @@ const BackButton = styled(Button)`
 const Wrapper = styled.section`
   display: grid;
   justify-items: center;
-  padding: 10px;
-  background: whitesmoke;
+  padding: 10px 10px 80px;
 
   h2 {
     font-size: 25px;

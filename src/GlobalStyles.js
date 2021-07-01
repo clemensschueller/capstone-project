@@ -11,10 +11,10 @@ const GlobalStyles = createGlobalStyle`
   --color-primary-font: #333333;
   --color-secondary-background: #f5f5f5;
   --color-secondary-font: #592236;
-  --color-active: #8C8A7D;
   --color-header: #59220E;
   --color-header-font: #D2D6D9;
   --color-navigation: #D9D7CC;
+  --color-active: #8C8A7D;
 }
 
   body {

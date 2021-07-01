@@ -37,24 +37,24 @@ export default function BookmarkPage({ galleries, onNavigate, title }) {
           ))}
         </ListWrapper>
       ) : (
-        'Du hast noch keine Bookmarks gespeichert!'
+        'Du hast noch keine gespeicherten Bookmarks.'
       )}
     </Wrapper>
   )
 }
 
-const Wrapper = styled.ul`
-  display: grid;
-  justify-content: center;
-  padding: 10px;
-  gap: 12px;
+const Wrapper = styled.section`
+  /* display: grid;
+  justify-content: center; */
+  margin-top: 60px;
+  //gap: 12px;
   overflow-y: auto;
 `
 
 const ListWrapper = styled.ul`
   margin-top: 60px;
   display: grid;
-  padding: 0;
+  padding: 10px;
   font-size: 10px;
   justify-self: center;
   gap: 12px;

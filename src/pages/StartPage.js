@@ -20,14 +20,17 @@ export default function StartPage() {
 
 const Wrapper = styled.section`
   //margin-top: 60px;
-  margin: -10px;
+  /* margin: -10px;
   display: grid;
   justify-content: center;
   padding: 10px;
   gap: 12px;
   overflow-y: auto;
-  width: 105%;
+  width: 105%; */
   background-image: url(${background});
+  background-size: cover;
+  /* object-fit: cover;
+  object-position: 80% 30%; */
 `
 
 const ArtShow = styled.ul`

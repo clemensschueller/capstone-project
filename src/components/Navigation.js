@@ -24,8 +24,7 @@ const NavBar = styled.nav`
   display: flex;
   justify-content: space-around;
   justify-items: center;
-  height: 2rem;
-  width: 100vw;
+  width: 100%;
   background-color: var(--color-navigation);
   gap: 20px;
 
@@ -39,7 +38,6 @@ const StyledNavLink = styled(NavLink)`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0em 0em 0.8em 0em;
   border: none;
   width: 100%;
 

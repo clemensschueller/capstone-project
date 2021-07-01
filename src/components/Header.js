@@ -15,16 +15,15 @@ export default function Header({ children }) {
 
 const PageHead = styled.header`
   position: fixed;
-  height: 60px;
-  width: 100vw;
-  //top: 0;
+  height: 48px;
+  place-items: center;
+  top: 0;
   //z-index: 1;
   display: grid;
   /* place-items: center; */
   text-align: center;
-  width: 100vw;
-  font-size: 25px;
   //padding: 8px;
+  width: 100%;
   color: var(--color-header-font);
   background: var(--color-header);
   text-shadow: 2px 2px black;
@@ -33,5 +32,6 @@ const PageHead = styled.header`
 
   h1 {
     font-size: 25px;
+    margin: 0;
   }
 `
