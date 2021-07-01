@@ -25,7 +25,9 @@ const PageHead = styled.header`
   width: 100vw;
   font-size: 25px;
   //padding: 8px;
-  background: grey;
+  color: var(--color-header-font);
+  background: var(--color-header);
+  text-shadow: 2px 2px black;
   opacity: 70%;
   //rgba(100, 100, 50, 0.1);
 

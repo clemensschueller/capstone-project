@@ -59,12 +59,11 @@ const Wrapper = styled.section`
 
   h2 {
     font-size: 25px;
-    color: #372d70;
   }
 
   div {
     font-size: 18px;
-    color: #1c62d4;
+    color: var(--color-secondary-font);
     margin-bottom: 20px;
   }
 

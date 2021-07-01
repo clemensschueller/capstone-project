@@ -21,37 +21,35 @@ export default function BookmarkPage({ galleries, onNavigate, title }) {
   )
 
   return (
-    <>
+    <Wrapper>
       <Header>{title}</Header>
-      <div>
-        {bookmarkedGalleries.length > 0 ? (
-          <ListWrapper>
-            {bookmarkedGalleries.map(({ id, image, name, style, opening }) => (
-              <Card
-                key={id}
-                image={image}
-                name={name}
-                style={style}
-                opening={opening}
-                onClick={() => onNavigate(id)}
-              />
-            ))}
-          </ListWrapper>
-        ) : (
-          <InfoWrapper>'Du hast noch keine Bookmarks gespeichert!'</InfoWrapper>
-        )}
-      </div>
-    </>
+      {bookmarkedGalleries.length > 0 ? (
+        <ListWrapper>
+          {bookmarkedGalleries.map(({ id, image, name, style, opening }) => (
+            <Card
+              key={id}
+              image={image}
+              name={name}
+              style={style}
+              opening={opening}
+              onClick={() => onNavigate(id)}
+            />
+          ))}
+        </ListWrapper>
+      ) : (
+        'Du hast noch keine Bookmarks gespeichert!'
+      )}
+    </Wrapper>
   )
 }
 
-// const Wrapper = styled.ul`
-//   //display: grid;
-//   //justify-content: center;
-//   padding: 10px;
-//   gap: 12px;
-//   overflow-y: auto;
-// `
+const Wrapper = styled.ul`
+  display: grid;
+  justify-content: center;
+  padding: 10px;
+  gap: 12px;
+  overflow-y: auto;
+`
 
 const ListWrapper = styled.ul`
   margin-top: 60px;
@@ -61,7 +59,7 @@ const ListWrapper = styled.ul`
   justify-self: center;
   gap: 12px;
 `
-const InfoWrapper = styled.div`
-  color: grey;
-  text-align: center;
-`
+// const InfoWrapper = styled.div`
+//   color: grey;
+//   text-align: center;
+// `

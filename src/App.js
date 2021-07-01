@@ -73,8 +73,9 @@ export default function App() {
 }
 
 const AppGrid = styled.div`
-  justify-items: center;
   display: grid;
+  justify-items: center;
   grid-template-rows: auto 2rem;
   height: 100vh;
+  width: 100vw;
 `

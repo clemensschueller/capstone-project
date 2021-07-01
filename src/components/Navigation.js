@@ -26,7 +26,7 @@ const NavBar = styled.nav`
   justify-items: center;
   height: 2rem;
   width: 100vw;
-  background-color: #ebf1f4;
+  background-color: var(--color-navigation);
   gap: 20px;
 
   img {
@@ -43,13 +43,8 @@ const StyledNavLink = styled(NavLink)`
   border: none;
   width: 100%;
 
-  &:hover {
-    //background-color: bisque;
-    //border: 1px solid grey;
-  }
-
   &.selected {
-    background-color: lightgrey;
+    background-color: var(--color-active);
     background-size: auto;
   }
 `
