@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import galleriesData from './data.json'
+import StartPage from './pages/StartPage'
 import ListPage from './pages/ListPage'
 import DetailsPage from './pages/DetailsPage'
 import BookmarkPage from './pages/BookmarkPage'
@@ -16,11 +17,11 @@ export default function App() {
 
   return (
     <AppGrid>
-      {/* <Route exact path={['/', '/bookmarks']}>
-        <Navigation />
-      </Route> */}
       <Switch>
         <Route exact path="/">
+          <StartPage />
+        </Route>
+        <Route exact path="/list">
           <ListPage
             onNavigate={handleClickDetails}
             galleries={galleries}
@@ -42,7 +43,7 @@ export default function App() {
           />
         </Route>
       </Switch>
-      <Route exact path={['/', '/bookmarks']}>
+      <Route exact path={['/', '/list', '/bookmarks']}>
         <Navigation />
       </Route>
     </AppGrid>
@@ -72,6 +73,7 @@ export default function App() {
 }
 
 const AppGrid = styled.div`
+  justify-items: center;
   display: grid;
   grid-template-rows: auto 2rem;
   height: 100vh;

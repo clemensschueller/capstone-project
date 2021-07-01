@@ -19,7 +19,7 @@ const GlobalStyles = createGlobalStyle`
   input,
   button,
   textarea {
-    font-size: inherit;
+  font-size: inherit;
   }
 `
 export default GlobalStyles

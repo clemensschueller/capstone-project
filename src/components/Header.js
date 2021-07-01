@@ -14,21 +14,22 @@ export default function Header({ children }) {
 }
 
 const PageHead = styled.header`
-  //position: fixed;
-  height: 2rem;
+  position: fixed;
+  height: 60px;
+  width: 100vw;
   //top: 0;
   //z-index: 1;
   display: grid;
-  place-items: center;
+  /* place-items: center; */
   text-align: center;
-  width: 100%;
+  width: 100vw;
   font-size: 25px;
   //padding: 8px;
-  margin: 20px 0 0 20px;
-  background: #ebf1f4;
+  background: grey;
+  opacity: 70%;
   //rgba(100, 100, 50, 0.1);
 
   h1 {
-    font-size: 18px;
+    font-size: 25px;
   }
 `

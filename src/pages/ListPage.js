@@ -19,8 +19,8 @@ ListPage.propTypes = {
 export default function ListPage({ galleries, onNavigate, title }) {
   return (
     <>
+      <Header>{title}</Header>
       <GalleryList>
-        <Header>{title}</Header>
         {galleries.map(gallery => (
           <Card
             key={gallery.id}
@@ -37,6 +37,7 @@ export default function ListPage({ galleries, onNavigate, title }) {
 }
 
 const GalleryList = styled.ul`
+  margin-top: 60px;
   display: grid;
   justify-content: center;
   padding: 10px;

@@ -1,12 +1,16 @@
 import styled from 'styled-components/macro'
 import { NavLink } from 'react-router-dom'
 import listIcon from '../assets/framedList.png'
-import anchorIcon from '../assets/anchorBookmarkIcon.png'
+import anchorIcon from '../assets/icons8-anchor-26.png'
+import homeIcon from '../assets/homeIcon.png'
 
 export default function Navigation() {
   return (
     <NavBar>
       <StyledNavLink exact to="/" activeClassName="selected">
+        <img src={homeIcon} alt="" />
+      </StyledNavLink>
+      <StyledNavLink exact to="/list" activeClassName="selected">
         <img src={listIcon} alt="" />
       </StyledNavLink>
       <StyledNavLink exact to="/bookmarks" activeClassName="selected">
@@ -35,7 +39,7 @@ const StyledNavLink = styled(NavLink)`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1em;
+  padding: 0em 0em 0.8em 0em;
   border: none;
   width: 100%;
 
@@ -46,5 +50,6 @@ const StyledNavLink = styled(NavLink)`
 
   &.selected {
     background-color: lightgrey;
+    background-size: auto;
   }
 `
