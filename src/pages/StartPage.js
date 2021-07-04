@@ -10,10 +10,10 @@ export default function StartPage() {
       <Header>
         <img src={logo} alt="" />
       </Header>
-      <p>
+      <Welcome>
         Moin moin und herzlich willkommen bei art2find. Hier findet Ihr die
         schönsten Kunstgalerien in Hamburg!
-      </p>
+      </Welcome>
     </Wrapper>
   )
 }
@@ -33,9 +33,15 @@ const Wrapper = styled.section`
       width: 130px;
     }
   }
+`
 
-  p {
-    margin-top: 510px;
-    font-weight: 600;
-  }
+const Welcome = styled.div`
+  text-align: center;
+  height: 4em;
+  width: auto;
+  margin-top: 550px;
+  //bottom: 20px;
+  font-weight: 600;
+  color: white;
+  text-shadow: 1px 1px black;
 `
