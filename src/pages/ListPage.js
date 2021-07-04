@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import styled from 'styled-components/macro'
 import Card from '../components/Card'
+import Header from '../components/Header'
 
 ListPage.propTypes = {
   galleries: PropTypes.arrayOf(
@@ -15,9 +16,10 @@ ListPage.propTypes = {
   onNavigate: PropTypes.func,
 }
 
-export default function ListPage({ galleries, onNavigate }) {
+export default function ListPage({ galleries, onNavigate, title }) {
   return (
     <>
+      <Header>{title}</Header>
       <GalleryList>
         {galleries.map(gallery => (
           <Card
@@ -35,8 +37,10 @@ export default function ListPage({ galleries, onNavigate }) {
 }
 
 const GalleryList = styled.ul`
+  margin-top: 60px;
   display: grid;
   justify-content: center;
   padding: 10px;
   gap: 12px;
+  overflow-y: auto;
 `

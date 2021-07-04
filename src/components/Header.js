@@ -6,22 +6,29 @@ Header.propTypes = {
 }
 
 export default function Header({ children }) {
-  return <PageHead>{children}</PageHead>
+  return (
+    <PageHead>
+      <h1>{children}</h1>
+    </PageHead>
+  )
 }
 
-const PageHead = styled.h1`
+const PageHead = styled.header`
   position: fixed;
+  height: 60px;
+  place-items: center;
   top: 0;
-  z-index: 1;
-  //width: 100vw;
-  font-size: 25px;
-  padding: 8px;
-  margin: 20px 0 0 20px;
-  display: flex;
-  justify-content: left;
+  display: grid;
   text-align: center;
-  background: #ebf1f4;
-  //rgba(100, 100, 50, 0.1);
-  height: 50px;
-  border-radius: 5px;
+  width: 100%;
+  color: black;
+  background: var(--color-header);
+  text-shadow: 2px 2px white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0;
+  }
 `

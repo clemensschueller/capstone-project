@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Affenfaust Galerie",
     "address": "Paul-Roosen-Straße 43, 22767 Hamburg",
     "style": "Urban",
@@ -10,37 +10,37 @@
   },
 
   {
-    "id": 2,
+    "id": "2",
     "name": "Artchina Gallery",
     "address": "Goetheallee 5-7, 22765 Hamburg",
     "style": "Zeitgenössisch",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Seit ihrer Gründung im Jahr 2007 widmet sich die ArtChina Gallery der zeitgenössischen Kunst Chinas. Zahlreiche Gruppen- und Einzelausstellungen arrivierter, aber auch junger Künstlerinnen und Künstler geben einen Einblick in die vielseitige und vitale Kunstszene, die sich in der post-maoistischen Ära (seit ca. 1979) entwickelt hat.",
     "image": "https://www.artchina-gallery.de/wp-content/uploads/2020/06/Shen-Jingdong-01.jpg"
   },
 
   {
-    "id": 3,
+    "id": "3",
     "name": "Barlach Halle K",
     "address": "Klosterwall 13, 20095 Hamburg",
     "style": "Zeitgenössisch",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Die Barlach Halle K wird von Künstlern oder deren Agenturen angemietet, diese managen somit alles selbst. Das gibt ihnen die Möglichkeit, hier Kunst zu zeigen, die in den eigenen Räumlichkeiten nicht gezeigt werden kann",
     "image": "https://www.franziskastuenkel.de/wp-content/uploads/2020/03/coexist132b-1030x547.jpg"
   },
 
   {
-    "id": 4,
+    "id": "4",
     "name": "BRÄUNING CONTEMPORARY",
     "address": "Heidenkampsweg 32, 20097 Hamburg",
     "style": "Zeitgenössisch",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Die Galerie zeigt und vertritt zeitgenössische Kunst. Gegründet 2012 zeigt sie unter Leitung des Galeristen Till Bräuning in ihren Hamburger Räumen ein regelmäßiges Ausstellungsprogramm. Bräuning Contemporary sieht seinen Schwerpunkt in der Vermittlung neuer zeitgenössischer Positionen in der bildenden Kunst. Katalog-Publikationen begleiten die Ausstellungstätigkeit der Galerie. Die Galerieräume befinden sich in dem traditionsreichen Kontorhaus Leder Schüler am Heidenkampsweg in Hamburg-Hammerbrook. Auf 170qm Fläche erstrecken sich die Ausstellungsräume im 2. Obergeschoss.",
     "image": "https://www.braeuningcontemporary.com/images/booth_web1.jpg"
   },
 
   {
-    "id": 5,
+    "id": "5",
     "name": "Bucerius Kunst Forum",
     "address": "Alter Wall 12, 20457 Hamburg",
     "style": "Verschieden",
@@ -50,17 +50,17 @@
   },
 
   {
-    "id": 6,
+    "id": "6",
     "name": "BUNKERHILLGalerie",
     "address": "Feldstraße 66, 20359 Hamburg",
     "style": "Zeitgenössisch",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Wusstet ihr, dass sich im Bunker an der Feldstraße seit Jahren auch eine Galerie versteckt? Im fünften Stock befindet sich der 270 Quadratmeter große Raum, der mit 7 m Deckenhöhe ideal für Kunst geeignet ist. Vornehmlich junge Hamburger Künstler werden hier ausgestellt. Es überrascht uns doch immer wieder aufs Neue, welche Kunststücke der Bunker immer wieder herzaubert. Zum klassischen Kanon einer Galerie gehören viele der Werke nicht, sie sind aufregend anders. Ein echter kultureller Schmelztiegel auf St. Pauli!",
     "image": "https://geheimtipphamburg.de/content/uploads/2020/12/geheimtipp-hamburg-uebel-und-gefaehrlich-1024x683.png"
   },
 
   {
-    "id": 7,
+    "id": "7",
     "name": "Deichtorhallen",
     "address": "Deichtorstraße 1–2, 20095 Hamburg",
     "style": "Zeitgenössisch",
@@ -70,7 +70,7 @@
   },
 
   {
-    "id": 8,
+    "id": "8",
     "name": "Golden Hands Gallery",
     "address": "Kaiser-Wilhelm-Straße 85, 20355 Hamburg",
     "style": "Zeitgenössisch",
@@ -80,17 +80,17 @@
   },
 
   {
-    "id": 9,
+    "id": "9",
     "name": "Hamburger Galerie",
     "address": "Mittelweg 161, 20148 Hamburg",
     "style": "Zeitgenössisch",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Die Hamburger Galerie ist spezialisiert auf amerikanische und internationale Pop-Art, Street-Art und Urban Art, sowie auf fotorealistische und hyperrealistische Malerei. In der Hamburger Galerie sind die wichtigsten Künstler jener Stilrichtungen vertreten, wie Andy Warhol, Roy Lichtenstein, Banksy, David Buckingham, Butch Anthony, COPE 2 und viele mehr.",
     "image": "https://hamburg.mitvergnuegen.com/wp-content/uploads/sites/2/2017/09/hamburger_galerie-676x451-676x383.jpg"
   },
 
   {
-    "id": 10,
+    "id": "10",
     "name": "Hamburger Kunsthalle",
     "address": "Glockengießerwall 5, 20095 Hamburg",
     "style": "Verschieden",
@@ -100,27 +100,27 @@
   },
 
   {
-    "id": 11,
+    "id": "11",
     "name": "Heliumcowboy Artspace",
     "address": "Bäckerbreitergang 75, 20355 Hamburg",
     "style": "Zeitgenössisch",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Unter dem Motto „A cowboy’s work is never done“ gründete Jörg Heikhaus 2002 die Heliumcowboys, die zunächst in St. Pauli hausten und mittlerweile in der Neustadt, mitten im Gängeviertel, zu finden sind. Dabei definiert sich diese Galerie weniger als Galerie mit festen Ausstellungen, sondern vielmehr unter der selbst erwählten Bezeichnung „Artsalon“ mit offener Tür – ein Ort zum Kunst erleben, machen und zeigen. In den Räumlichkeiten werden Kunstprojekte selbst umgesetzt – und mittlerweile auch der heliumTALK Podcast. Ziel ist es, möglichst zeitgenössische Kunst zu zeigen und diskutieren, ohne die üblichen Hemmschwellen und Vorgaben des festgefahrenen Galerie- und Kunstbetriebes. Das Ergebnis ist neu, frisch, überraschend, schrill bunt und schwarz-weiß, laut und leise und auf jeden Fall abwechslungsreich.",
     "image": "https://geheimtipphamburg.de/content/uploads/2020/12/heliumcowboy-gallery-hamburg-1024x683.jpg"
   },
 
   {
-    "id": 12,
+    "id": "12",
     "name": "KRÜMMER fine art",
     "address": "Heilwigstraße 124, 20249 Hamburg",
     "style": "Verschieden",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Die Sammlung KRÜMMER fokussiert sich aufausgewählte Künstler der Klassische Modernen, der Nachkriegs- und der Zeitgenössischen Kunst. Eine Besonderheit bilden die ‚Frauen der Moderne‘, Frauenporträts, deren Spannweite von Ernst Ludwig Kirchner bis hin zu Gerhard Richter reicht.",
     "image": "https://www.handelsblatt.com/images/blick-in-die-neuen-raeume-der-hamburger-kunsthaendlerin-renate-kruemmer/9438756/3-format2020.jpg"
   },
 
   {
-    "id": 13,
+    "id": "13",
     "name": "Kunstverein in Hamburg",
     "address": "Klosterwall 23, 20095 Hamburg",
     "style": "Zeitgenössisch",
@@ -130,17 +130,17 @@
   },
 
   {
-    "id": 14,
+    "id": "14",
     "name": "Levy Galerie",
     "address": "Hagedornstraße 47, 20149 Hamburg",
     "style": "Zeitgenössisch",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "1970 eröffnete Thomas Levy seine Galerie in Hamburg. Die entwickelte sich innerhalb weniger Jahre zur Topadresse für bedeutende Künstler wie Daniel Spoerri, Meret Oppenheim, Allen Jones und C.O. Paeffgen. Surrealismus und Pop Art sind auch heute noch Schwerpunkte der Galerie. Aktuelle Ausstellungen vereinen damit einige der wichtigsten Vertreter der Pop Art aus den USA, England, Spanien und Deutschland von den 1960er Jahren bis heute. Besonderes Augenmerk liegt dabei auf den zeitgenössischen Post-Pop-Tendenzen.",
     "image": "https://kissofart.files.wordpress.com/2014/06/levyisitpop.png"
   },
 
   {
-    "id": 15,
+    "id": "15",
     "name": "Metropolitan Gallery",
     "address": "Am Sandtorpark 2, 20457 Hamburg",
     "style": "Verschieden",
@@ -150,7 +150,7 @@
   },
 
   {
-    "id": 16,
+    "id": "16",
     "name": "Museum für Kunst & Gewerbe Hamburg",
     "address": "Steintorplatz, 20099 Hamburg",
     "style": "Verschieden",
@@ -160,17 +160,17 @@
   },
 
   {
-    "id": 17,
+    "id": "17",
     "name": "Oberfett",
     "address": "Billrothstraße 67, 22767 Hamburg",
     "style": "Urban Art",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Die Oberfett Galerie gibt es gleich zwei mal in Hamburg. In der Billrothstraße in Altona könnt ihr große Kunst auf kleinem Raum bestaunen. Es gibt ständig neue Themen mit spannenden Künstlern, aktuell findet ihr im Oberfett unter anderem den Urban Artist TONA. Die kleine Galerie bietet einen Einblick in Kunst, die es sonst nirgendwo zu finden gibt, ein Besuch lohnt sich also! Wenn ihr es nicht abwarten könnt, schaut doch mal auf Instagram nach und lasst euch inspirieren!",
     "image": "https://geheimtipphamburg.de/content/uploads/2019/12/geheimtipp-hamburg-altona-galerie-oberfett-1-1024x683.jpg"
   },
 
   {
-    "id": 18,
+    "id": "18",
     "name": "OZM Art Space",
     "address": "Bartelstraße 65, 20357 Hamburg",
     "style": "Street Art",
@@ -180,7 +180,7 @@
   },
 
   {
-    "id": 19,
+    "id": "19",
     "name": "Produzentengalerie Hamburg",
     "address": "Admiralitätstraße 71, 20459 Hamburg",
     "style": "Zeitgenössisch",
@@ -190,17 +190,17 @@
   },
 
   {
-    "id": 20,
+    "id": "20",
     "name": "Raum linksrechts",
     "address": "Valentinskamp 37, 20355 Hamburg",
     "style": "Urban Art",
-    "opening": "k.A.",
+    "opening": "Öffnungszeiten variieren",
     "description": "Seit seiner Besetzung 2009 entwickelt sich das Gängeviertel zu einem Ort kultureller Vielfalt im Herzen Hamburgs. Galerien, Ateliers, Konzerträume und Werkstätten schaffen einen Ort des kreativen und sozialen Austauschs, der allen Hamburgerinnen und Hamburgern offen steht. Zwei Initiativen zeigen sich federführend für die Aufrechterhaltung und Organisation des Viertels: die Gängeviertel Genossenschaft 2010 eG und der Komm in die Gänge e. V. Die Galerie Raum linksrechts verortet sich in diesem Kontext und versteht sich als Offspace-Ausstellungsplattform und Förderin von junger Kunst in und aus Hamburg. Sie besteht aus zwei separaten Räumen: Der linke Raum ist weiß gehalten, der rechte schwarz.",
     "image": "https://raumlinksrechts.files.wordpress.com/2014/10/linksechts.jpg?w=1536"
   },
 
   {
-    "id": 21,
+    "id": "21",
     "name": "Vera Munro Galerie",
     "address": "Heilwigstrasse 64, 20249 Hamburg",
     "style": "Zeitgenössisch",
@@ -210,7 +210,7 @@
   },
 
   {
-    "id": 22,
+    "id": "22",
     "name": "x-pon art gallery",
     "address": "Repsoldstraße 45, 20097 Hamburg",
     "style": "Zeitgenössisch",

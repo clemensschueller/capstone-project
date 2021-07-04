@@ -15,8 +15,7 @@ export default function Card({ image, name, style, opening, onClick }) {
       <img src={image} alt="" />
       <div>
         <h2>{name}</h2>
-        <h3>{style}</h3>
-        <p>{opening}</p>
+        <p>{style}</p>
       </div>
     </Wrapper>
   )
@@ -29,20 +28,16 @@ const Wrapper = styled.section`
   border-radius: 5px;
   display: flex;
   gap: 10px;
-  background: whitesmoke;
+  background: var(--color-secondary-background);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
   h2 {
     font-size: 20px;
   }
 
-  h3 {
-    font-size: 17px;
-    color: darkred;
-  }
-
   p {
-    font-size: 15px;
+    font-size: 17px;
+    color: var(--color-secondary-font);
   }
 
   img {

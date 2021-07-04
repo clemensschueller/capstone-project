@@ -33,14 +33,15 @@ const ToggleButton = styled.button`
   border-radius: 3px;
   padding: 3px;
   margin-top: 5px;
-  background: ${props =>
-    props.isBookmarked ? 'rgba(100, 100, 40, 0.1)' : '#FAFAFA'};
+  color: ${props => (props.isBookmarked ? 'darkcyan' : 'darkred')};
   font-family: inherit;
   font-size: 0.75rem;
   text-transform: uppercase;
+  letter-spacing: 1px;
 
   svg {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
+    margin-right 5px;
   }
 `
