@@ -33,6 +33,7 @@ const ToggleButton = styled.button`
   border-radius: 3px;
   padding: 3px;
   margin-top: 5px;
+  background-color: inherit;
   color: ${props => (props.isBookmarked ? 'darkcyan' : 'darkred')};
   font-family: inherit;
   font-size: 0.75rem;
