@@ -1,4 +1,3 @@
-//import { useState } from 'react'
 import galleriesData from './data.json'
 import StartPage from './pages/StartPage'
 import ListPage from './pages/ListPage'
