@@ -56,7 +56,3 @@ const ListWrapper = styled.ul`
   justify-self: center;
   gap: 12px;
 `
-// const InfoWrapper = styled.div`
-//   color: grey;
-//   text-align: center;
-// `

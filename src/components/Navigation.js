@@ -27,6 +27,7 @@ const NavBar = styled.nav`
   width: 100%;
   background-color: var(--color-navigation);
   gap: 20px;
+  border-top: 1px solid black;
 
   img {
     width: 25px;
@@ -44,5 +45,7 @@ const StyledNavLink = styled(NavLink)`
   &.selected {
     background-color: var(--color-active);
     background-size: auto;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
   }
 `

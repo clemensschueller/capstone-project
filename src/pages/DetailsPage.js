@@ -56,6 +56,7 @@ const BackButton = styled(Button)`
   background-color: #ebf1f4;
   padding: 8px;
   bottom: 0;
+  justify-self: center;
 `
 const Wrapper = styled.section`
   display: grid;
@@ -89,6 +90,3 @@ const Infos = styled.section`
     color: grey;
   }
 `
-// background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;

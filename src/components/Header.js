@@ -15,19 +15,20 @@ export default function Header({ children }) {
 
 const PageHead = styled.header`
   position: fixed;
-  height: 48px;
+  height: 60px;
   place-items: center;
   top: 0;
   display: grid;
   text-align: center;
   width: 100%;
-  color: var(--color-header-font);
+  color: black;
   background: var(--color-header);
-  text-shadow: 2px 2px black;
-  opacity: 70%;
+  text-shadow: 2px 2px white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.1);
 
   h1 {
     font-size: 25px;
+    font-weight: 200;
     margin: 0;
   }
 `
