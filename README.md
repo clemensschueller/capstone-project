@@ -5,7 +5,7 @@
 ![clemens-3](https://user-images.githubusercontent.com/77647508/124765635-73440e00-df36-11eb-9c7c-5fa04df6f445.jpg)
 
 # Description
-Do enjoy art? You can find interesting galleries in Hamburg with art2find! The app is not limited to a particular art style or gallery size. You can find every kind of art whether it's a big gallery or small galleries supporting unknown artists. Have fun browsing through the galleries!
+Do you enjoy art? You can find interesting galleries in Hamburg with art2find! The app is not limited to a particular art style or gallery size. You can find every kind of art whether it's a big gallery or small galleries supporting unknown artists. Have fun browsing through the galleries!
 # Tech Stack
 - React
 - React router
